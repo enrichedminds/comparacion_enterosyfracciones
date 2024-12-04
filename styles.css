@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #5ea7bb;
+    color: white;
+}
+
+button:hover {
+    background-color: #428da4;
+}
+
+#back {
+    margin-top: 0px; /* Aumenta el margen superior para mayor separación */
+}
+
+.feedback {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feedback .fraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feedback .fraction hr {
+    width: 25px;
+    border: 0.75px solid black;
+    margin: 2px 0;
+}
+
+#exercise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.fraction-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fraction hr {
+    width: 25px;
+    border: 0.75px solid black;
+    margin: 2px 0;
+}
+
+select {
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
